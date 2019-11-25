@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="jumbotron text-center">
       <h1 style={{ color: color }}>{count}</h1>
-      <button onClick={counterChanger}>ChangeMe!</button>
+      <button onClick={counterChanger} className="btn btn-primary">ChangeMe!</button>
     </div>
   )
 }
